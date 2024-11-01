@@ -19,7 +19,7 @@ function ContactUs() {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:5000/contact/add", Contact);
+      const response = await axios.post("https://dh-16u9.onrender.com", Contact);
       console.log(response);
       setContact({
         name: "",
