@@ -1,0 +1,59 @@
+.lwhy {
+  background-color: #1A1A1A;
+  color: white;
+  margin: 0 auto;
+  border: none;
+  font-family: 'neue machina', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lwhy .accordion-header {
+  background-color: #1A1A1A;
+  color: white;
+  border: none;
+  font-size: 5vw; 
+  font-weight: bold;
+}
+
+.lwhy .accordion-body {
+  background-color: #1A1A1A;
+  color: white;
+  border: none;
+  padding: 20px; 
+  font-size: 1.2rem;
+}
+
+.lwhy .accordion-button {
+  background-color: #1A1A1A;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.5rem; 
+}
+
+.lwhy .accordion-button:not(.collapsed) {
+  background-color: #1A1A1A;
+  color: white;
+  border: none;
+}
+
+.lwhy .accordion-button::after {
+  filter: invert(1);
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .lwhy .accordion-header {
+      font-size: 8vw;
+  }
+
+  .lwhy .accordion-body {
+      font-size: 1rem; 
+      padding: 10px; 
+  }
+
+  .lwhy .accordion-button {
+      font-size: 1.2rem; 
+  }
+}

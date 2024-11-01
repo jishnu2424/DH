@@ -1,0 +1,125 @@
+.title {
+  font-family: "neue machina";
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-item {
+  background-color: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 150px;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.dint {
+  width: 90%;
+  margin: 50px auto 0;
+  background-color: #555;
+  color: white;
+  border-radius: 20px;
+  font-family: neue machina;
+}
+
+.interaction-numbers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.interaction-number {
+  font-size: 100px;
+}
+
+.interaction-labels {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.interaction-label {
+  font-size: 1.5em;
+}
+
+.dtc {
+  width: 95%;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  background-color: #1A1A1A;
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .interaction-number {
+    font-size: 80px;
+  }
+  
+  .interaction-label {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-item {
+    width: 120px;
+    height: 80px;
+    padding: 15px;
+  }
+
+  .interaction-number {
+    font-size: 60px;
+  }
+
+  .dint {
+    height: auto;
+    padding: 20px;
+  }
+  
+  .dtc {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-item {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+  }
+
+  .interaction-number {
+    font-size: 50px;
+  }
+
+  .interaction-label {
+    font-size: 1em;
+  }
+
+  .dint {
+    height: auto;
+  }
+  
+  .dtc {
+    height: auto;
+  }
+}

@@ -1,0 +1,24 @@
+.ld1{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: neue machina ;
+    margin-top: 50px;
+}
+.ldh1{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.ldimg{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.ldimg:hover{
+    border: 5px solid white;
+}
+.ldimgh1{
+    margin-left: 40px;
+}

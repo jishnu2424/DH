@@ -1,0 +1,42 @@
+.rate-post-container {
+    background-color: #f0f0f0;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.rate-post-title {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.star-icon {
+    cursor: pointer;
+    color: #e4e5e9;
+    font-weight: bolder;
+    font-size: 100px; 
+    margin: 0 5px; 
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+.star-icon:hover {
+    transform: scale(1.2); 
+}
+
+.star-icon.active {
+    color: #ffc107; 
+}
+
+.rating-info {
+    margin-top: 15px; 
+    font-size: 1rem;
+    color: #666;
+    text-align: center; 
+}

@@ -1,0 +1,152 @@
+.category {
+    width: 100%;
+    height: auto;
+    font-family: 'Neue Machina', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.cath1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.catb {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin: 5px;
+    width: auto;
+    height: 50px;
+    font-size: 1rem;
+}
+
+.catb:hover {
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+    font-weight: bold;
+}
+
+.catcard {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: border 0.3s ease;
+}
+
+.catcard:hover {
+    border: 3px solid black;
+}
+
+.catcard-img {
+    width: 100%;
+    height: auto;
+}
+
+.catcad {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catcard:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Neue Machina', sans-serif;
+}
+
+.no-arts {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .cath1 {
+        font-size: 2rem;
+    }
+
+    .catb {
+        width: 100%;
+        margin: 5px 0;
+        font-size: 0.9rem;
+        height: 45px;
+    }
+
+    .catcad {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .catcard {
+        margin-bottom: 30px;
+    }
+
+    .pagination-container {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cath1 {
+        font-size: 1.75rem;
+        padding-top: 10px;
+    }
+
+    .catb {
+        font-size: 0.85rem;
+        height: 40px;
+    }
+
+    .catcad {
+        padding: 5px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .pagination-container {
+        margin-top: 5px;
+    }
+}
